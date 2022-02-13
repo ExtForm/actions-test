@@ -24,7 +24,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: './'
+          #source-directory: 'gas/'
           destination-github-username: 'ExtForm'
           destination-repository-name: 'extform-gas'
           user-email: 64835865+HURDOO@users.noreply.github.com
