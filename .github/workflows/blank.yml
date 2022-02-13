@@ -14,9 +14,9 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: 'test'
+        source_file: 'test/*'
         destination_repo: 'ExtForm/extform-gas'
-        #destination_folder: './'
+        destination_folder: './'
         user_email: '64835865+HURDOO@users.noreply.github.com'
         user_name: 'HURDOO'
         commit_message: 'Auto commit'
